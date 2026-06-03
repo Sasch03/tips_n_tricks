@@ -1,0 +1,1 @@
+yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --convert-thumbnails png --embed-metadata --postprocessor-args "ffmpeg:-id3v2_version 3" -o "%(title)s.%(ext)s" "https://music.youtube.com/@acdc"
